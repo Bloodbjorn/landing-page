@@ -1,0 +1,1 @@
+This is a website landing page made in html and css for a 'The Odin Project' project. It has no functionality at the moment but it will be transformed into a landing page for a recipe website that was created in earlier projects.
