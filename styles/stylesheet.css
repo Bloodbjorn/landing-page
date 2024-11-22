@@ -47,6 +47,7 @@ a {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 100px;
 }
 
 .SignUpBox {
@@ -92,30 +93,55 @@ a {
 }
 
 .RandomInfo {
-  flex-grow: 1;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .RandomInfoHeader {
   color: #1F2937;
   font-size: 36px;
   font-weight: 900;
+  align-items: center;
 }
 
 .Illustration {
+  display: flex;
+  align-items: center;
 }
 
 .IllustrationCard {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  margin: 5px;
+  height: 250px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .CardImage {
+  flex: 1 0 0;
+  outline: 2px solid #3882F6;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
 }
 
-.CardTxt {
+.Cardtxt {
+  height: 100px;
+  width: 175px;
+  text-align:center;
 }
 
 .InspiringQuote {
+  display: flex;
+  flex-direction: column;
   background-color: #e5e7eb;
   flex-grow: 1;
+  padding: 100px;
 }
 
 .InspiringQuoteTxt {
@@ -126,29 +152,60 @@ a {
 
 .Quotted {
   flex-grow: 1;
+  font-weight: bold;
+  align-self: flex-end;
 }
 
 .ActionCall {
+  display: flex;
   flex-grow: 1;
+  padding: 100px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .ActionCallBox {
+  display: flex;
+  border-radius: 10px;
+  width: 1000px;
+  height: 150px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ActionCallBoxHeaderBoxTxt {
+  display: flex;
+  flex-direction: column;
 }
 
 .ActionCallBoxHeader {
+  font-size: larger;
+  color: white;
+  font-weight: bold;
 }
 
 .ActionCallBoxTxt {
+  color: white;
+  font-size: large;
 }
 
 .ActionCallBoxSignUp {
+  font-size: larger;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .Copyright {
+  display: flex;
   flex-grow: 1;
+  padding: 40px;
+  justify-content: center;
+  color: white;
 }
 
-.SignUpButton, .ActionCallBox {
+.SignUpButton, .ActionCallBox, .ActionCallBoxSignUp {
   background-color: #3882F6;
 }
 
